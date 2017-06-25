@@ -1,17 +1,69 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+	<ion-navbar style="color: #efefef;">
+		<ion-title title main-title text-center>Peter & Tim's App</ion-title>
+	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Peter and Tim's App?</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+	<div text-center class="main">
+		<ion-row>
+			<ion-col>
+				<ion-card color="primary">
+					<ion-card-header>
+						Explore Nearby
+					</ion-card-header>
+					<ion-list>
+						<button color="primary" ion-item>
+							<ion-icon color="wt" name="cart" item-start></ion-icon>
+							Shopping
+						</button>
+						<button color='primary' ion-item>
+							<ion-icon name="medical" item-start></ion-icon>
+							Hospital
+						</button>
+
+						<button color='primary' ion-item>
+							<ion-icon name="cafe" item-start></ion-icon>
+							Cafe
+						</button>
+
+						<button color='primary' ion-item>
+							<ion-icon name="paw" item-start></ion-icon>
+							Dog Park
+						</button>
+
+						<button color='primary' ion-item>
+							<ion-icon name="beer" item-start></ion-icon>
+							Pub
+						</button>
+
+						<button color='primary' ion-item>
+							<ion-icon name="planet" item-start></ion-icon>
+							Space
+						</button>
+
+					</ion-list>
+				</ion-card>
+			</ion-col>
+			<ion-col>
+				<ion-card text-left color="primary">
+					<img src="../assets/img/lotus.jpg"/>
+					<ion-card-content>
+						<ion-card-title>
+							Lotus
+						</ion-card-title>
+						<p>
+							This is a work of digital art that I created using photoshops blur tool. I wanted to recreate low poly art and an make album cover for my song, 'Beloved'.
+						</p>
+					</ion-card-content>
+				</ion-card>
+			</ion-col>
+	</ion-row>
+</div>
+
+<footer>
+
+</footer>
+
+
 </ion-content>
