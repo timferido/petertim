@@ -1,14 +1,25 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is the readme file for Peter and Tim's app.
 
-## How to use this template
+## How to start building!
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Notes: 
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+* Always consult Ionic's Documentation: https://ionicframework.com/docs/
+* Always feel free to ask online, on slack on the appropriate channel and please stay in tight communication
+* DON'T EVER APPROVE PULL REQUEST TO MASTER BRANCH
+* ALWAYS USE DEVELOP BRANCH TO ADD FEATURES
 
 ### With the Ionic CLI:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+// ----------------------
+
+$ ionic serve
+
+---------------------- //
+
+- this command tests
+
+
 
 ```bash
 $ sudo npm install -g ionic cordova
